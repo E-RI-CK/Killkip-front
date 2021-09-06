@@ -19,6 +19,7 @@ const DivPrueba = () => {
                     <p>Director del proyecto</p>
                 </div>
                 <div class="p1">
+                    
                     <input type="number" id="input1" name="input13" defaultValue='1'
                         min="1" max="5"
                     />
