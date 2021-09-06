@@ -1,0 +1,111 @@
+.container {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-auto-columns: 1fr;
+    gap: 15px 1px;
+    grid-auto-flow: row;
+    width: 1748px;
+    height: 1710px;
+  }
+  
+  .titulo {
+    display: grid;
+    grid-template-columns: 32.5% 35% 32.5%;
+    grid-template-rows: 100%;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". titulo-texto .";
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  
+  .titulo-texto { grid-area: titulo-texto; }
+  
+  .cuerpo {
+    display: grid;
+    grid-template-columns: 6% 38% 15% 15% 15% 6%;
+    grid-template-rows: 4% 11% 15% 15% 15% 14.5% 14.5% 4%;
+    gap: 1% 1%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . ."
+      ". . colaborador encargado director ."
+      ". act-org p1 p2 p3 ."
+      ". act-equip p4 p5 p6 ."
+      ". act-colab p7 p8 p9 ."
+      ". predis p10 p11 p12 ."
+      ". punt p13 p14 p15 ."
+      ". . . . . .";
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  
+  .colaborador { grid-area: colaborador; }
+  
+  .encargado { grid-area: encargado; }
+  
+  .director { grid-area: director; }
+  
+  .p1 { grid-area: p1; }
+  
+  .p2 { grid-area: p2; }
+  
+  .p3 { grid-area: p3; }
+  
+  .p4 { grid-area: p4; }
+  
+  .p5 { grid-area: p5; }
+  
+  .p6 { grid-area: p6; }
+  
+  .p7 { grid-area: p7; }
+  
+  .p8 { grid-area: p8; }
+  
+  .p9 { grid-area: p9; }
+  
+  .p10 { grid-area: p10; }
+  
+  .p11 { grid-area: p11; }
+  
+  .p12 { grid-area: p12; }
+  
+  .p13 { grid-area: p13; }
+  
+  .p14 { grid-area: p14; }
+  
+  .p15 { grid-area: p15; }
+  
+  .act-org { grid-area: act-org; }
+  
+  .act-equip { grid-area: act-equip; }
+  
+  .act-colab { grid-area: act-colab; }
+  
+  .predis { grid-area: predis; }
+  
+  .punt { grid-area: punt; }
+  
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+    
+  /* For presentation only, no need to copy the code below 
+  
+  .container * {
+    border: 1px solid red;
+    position: relative;
+  }
+  
+  .container *:after {
+    content:attr(class);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }*/

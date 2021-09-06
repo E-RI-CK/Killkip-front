@@ -5,6 +5,8 @@ import { faAsterisk } from '@fortawesome/fontawesome-free';
 import Input from './componentes/formulario/input';
 import Date from './componentes/formulario/date';
 import Charge from './componentes/formulario/charge';
+import TextBox from './componentes/table1/TextBox'
+import TextBox1 from './componentes/table2/Table2'
 function App() {
 
 
@@ -259,8 +261,10 @@ function App() {
           id='myDate'
           name='trip-start'
           leyendError='Ingrese una fecha'
-        />
+        /> 
       </Formulario>
+      <TextBox/>
+   
     </main>   
   );
 }

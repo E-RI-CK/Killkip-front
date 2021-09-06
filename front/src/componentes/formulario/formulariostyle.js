@@ -1,5 +1,5 @@
 import styled,{css} from 'styled-components';
-//import { FontAwesomeIcon } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 
@@ -14,7 +14,6 @@ const Title = styled.header`
     font-weight: 900;
     margin: 40px;
 `;
-
 const Formulario = styled.form`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -36,12 +35,21 @@ const Label = styled.label`
     `}
 `;
 
-const GrupoInput = styled.div`
+const DivInput = styled.div`
+
     position: relative;
+    
+
+
+`;
+
+
+const GrupoInput = styled.div`
     z-index: 90;
 `;
 
 const Input = styled.input`
+
     width: 100%;
     background: #fff;
     border-radius: 3px;
@@ -232,5 +240,6 @@ export {
     TitleNames,
     Title,
     Description,
-    Date,  
+    Date,
+    DivInput
 };
